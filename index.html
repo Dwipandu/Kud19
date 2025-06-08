@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kenangan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="floating-hearts" id="floatingHearts"></div>
+        <h1>Kenangan Kita</h1>
+        <p>Menyimpan setiap momen berharga yang pernah kita lewati bersama</p>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Kenangan</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#timeline">Linimasa</a></li>
+                <li><a href="#about">Tentang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="memory-section">
+            <h2 class="section-title">Selamat Datang di Kenangan Kita</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">
+                Website ini dibuat untuk menyimpan semua kenangan indah yang pernah kita lewati bersama. 
+                Setiap foto, setiap momen, dan setiap cerita akan selalu tersimpan disini.
+            </p>
+            <div class="gallery">
+                <div class="memory-card">
+                    <img src="https://i.supaimg.com/da99c91b-c552-495d-a910-bb6a68678a2f.jpg" alt="Kenangan" class="memory-img">
+                    <div class="memory-info">
+                        <div class="memory-date">1 Januari 2019</div>
+                        <h3 class="memory-title">KUD19</h3>
+                        <p class="memory-desc">berdirinya bedebah kud</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="https://i.supaimg.com/9a993cb5-6769-4725-948e-23f08d654a90.jpg" alt="Kenangan" class="memory-img">
+                    <div class="memory-info">
+                        <div class="memory-date">31 Desember 2023</div>
+                        <h3 class="memory-title">Malam tahun baru</h3>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="https://i.supaimg.com/ac731345-8278-448c-89e0-5d6bb7a6a169.jpg" alt="Kenangan" class="memory-img">
+                    <div class="memory-info">
+                        <div class="memory-date">1 April 2025</div>
+                        <h3 class="memory-title">Bangunin sahur terakhir tahun 2025</h3>
+                        <p class="memory-desc">Coleb dengan beberapa kampung sekitaran KUD</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="memory-section">
+            <h2 class="section-title">Galeri Kenangan</h2>
+            <div class="gallery" id="memoryGallery">
+                <!-- Photos will be added by JavaScript -->
+            </div>
+        </section>
+
+        <section id="timeline" class="memory-section">
+            <h2 class="section-title">Linimasa Kenangan</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Januari 2023</div>
+                        <h3 class="timeline-title">Pertemuan Pertama</h3>
+                        <p class="timeline-desc">Kita bertemu pertama kali di acara kampus dan langsung merasa cocok satu sama lain.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Maret 2023</div>
+                        <h3 class="timeline-title">Kencan Pertama</h3>
+                        <p class="timeline-desc">Akhirnya kita pergi kencan pertama ke museum seni yang selalu kamu inginkan.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Juli 2023</div>
+                        <h3 class="timeline-title">Liburan Bersama</h3>
+                        <p class="timeline-desc">Kita menghabiskan waktu 1 minggu penuh berlibur ke Bali bersama-sama.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Desember 2023</div>
+                        <h3 class="timeline-title">Natal Keluarga</h3>
+                        <p class="timeline-desc">Kamu mengajakku merayakan natal bersama keluargamu untuk pertama kalinya.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="memory-section">
+            <h2 class="section-title">Tentang Kenangan Kita</h2>
+            <div style="max-width: 800px; margin: 0 auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <p style="margin-bottom: 1rem;">Website Kenangan Kita dibuat sebagai tempat untuk menyimpan semua momen berharga dalam perjalanan hubungan kita.</p>
+                <p style="margin-bottom: 1rem;">Setiap foto, setiap cerita, dan setiap kenangan akan tersimpan dengan rapi disini, sehingga kita bisa melihatnya kembali kapan saja.</p>
+                <p>Website ini akan terus diupdate dengan kenangan-kenangan baru yang kita buat bersama.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Kenangan Kita</h3>
+            <p>Menyimpan setiap momen berharga dalam hidup kita</p>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#timeline">Linimasa</a></li>
+                <li><a href="#about">Tentang</a></li>
+            </ul>
+            <p>&copy; 2023 Kenangan Kita. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop">↑</a>
+</body>
+</html>
